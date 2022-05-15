@@ -74,20 +74,13 @@ Configures various aspects of the site.
 
 Set a url config to your actuall hosting site
 ```
-url: https://jaxsbr.github.io/pkb-blog/
+url: https://yourhostingsite
 ```
 
-I'm yet to determine how to set the config to work both locally and deployed.  
-Here's my temporary solution.  
+I have a github.io space where my personal wesite lives. I want my blog to live in a sub page in another repository. To configure this I did the following:  
+set the `url:` to https://jaxsbr.github.io/  
+set the `root:` to /pkb-blog
 
-Local
-```
-#root: ./
-```
-Deployed
-```
-root: ./
-```
 
 ## Posts, Drafts & Pages
 
@@ -127,6 +120,13 @@ You also have to directly access the URL (no data format):
 We run the generate command to convert the markdown and other content to publishable website content.
 ```
 hexo generate
+hexo g
+```
+
+You can configure where the content is output to by setting the `public_dir:` property in **_config.yml** file.  
+e.g. Note, I use a sub path to simulate what my directory looks like when live
+```
+public_dir: public/pkb-blog
 ```
 
 [Deploy Documentation](https://hexo.io/docs/one-command-deployment)
@@ -143,3 +143,16 @@ Secondly I had to install a package the aids in git commits.
 ```
 npm install hexo-deployer-git --save
 ```
+
+To deploy we run
+```
+hexo deploy
+```
+
+## Time Saver
+
+Once all of the above is setup and you only need to create content, using the following step will optimize your workflow.
+
+1. Make you markdown change (actual blog content)
+2. Run `hexo server` and preview changes
+3. Run `hexo g -d` to both generate and deploy live
