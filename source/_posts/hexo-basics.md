@@ -1,14 +1,17 @@
 # Hexo Basics
-Hexo is a static site generator.
 
-[Mike Dane - Hexo Tutorial Series](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm)
+This blog was setup using Hexo. The following sections detail some of my learnings.
+
+### So what is Hexo?
+
+Hexo is a static website site generator. You create blog entries using markdown language which Hexo will convert to website content (HTML, CSS) ready to be hosted.
+
+I followed a [tutorial series by Mike Dane](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm) to get me up and running and also utilized the [official Hexo documentation](https://hexo.io/docs/).
+
 
 ## Instalation
 
 ---
-
-[installation](https://youtu.be/ARted4RniaU)  
-[doc](https://hexo.io/docs/)
 
 Add the hexo-cli tool globaly  
 ```
@@ -24,8 +27,6 @@ npm install hexo
 ## Getting Started
 
 ---
-
-[site creation, 0 - 3:30](https://www.youtube.com/watch?v=0m2HnATkHOk)
 
 Creating the intial site.  
 ```
@@ -50,8 +51,8 @@ You can create custom scaffolds by adding new **.md** files in the **_scaffolds*
 
 ---
 
-Source folder contains all your content.  
-***e.g blog posts***
+Source folder contains all your blog content content.  
+***e.g hexo-basics.md***
 
 ## Themes
 
@@ -77,7 +78,7 @@ Set a url config to your actuall hosting site
 url: https://yourhostingsite
 ```
 
-I have a github.io space where my personal wesite lives. I want my blog to live in a sub page in another repository. To configure this I did the following:  
+I have a github.io space where my personal wesite lives. I want my blog to live as a sub page, with the content served from a different repository than the main site. To configure this I did the following:  
 set the `url:` to https://jaxsbr.github.io/  
 set the `root:` to /pkb-blog
 
@@ -89,7 +90,9 @@ set the `root:` to /pkb-blog
 ### Post
 
 Create a new post in the source/_posts directory. This automatically shows in your site.  
-`hexo new {post name}`  
+```
+hexo new {post name}
+```
 
 A URL is specified for new post inthis format:
 **http://baseAddress/year/mo/dy/postname**
@@ -98,24 +101,32 @@ A URL is specified for new post inthis format:
 ### Draft
 
 You can also create draft posts. These arent' show by default when launch the Hexo server.  
-`hexo new draft {draft post name}`
+```
+hexo new draft {draft post name}
+```
 
 To show drafts, run the server with this argument:  
-`hexo server --draft`
+```
+hexo server --draft
+```
 
 Publish a draft (from _draft to _post):  
-`hexo publish {draft post name}`
+```
+hexo publish {draft post name}
+```
 
 ### Page
 
 Creating a new page with Hexo, results in a new folder in the code structure.  
 **/source/{your page name}**  
-`hexo new page {your page name}`
+```
+hexo new page {your page name}
+```
 
-You also have to directly access the URL (no data format):
+You can access this directly, without a date format as seen with new posts above:
 **http://baseAddress/MyPage**
 
-## Generate && Deploy
+## Generate and Deploy
 
 We run the generate command to convert the markdown and other content to publishable website content.
 ```
