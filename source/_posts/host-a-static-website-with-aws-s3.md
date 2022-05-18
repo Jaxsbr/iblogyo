@@ -39,6 +39,8 @@ aws_secret_access_key = {your access key}
 
 ## Infrastructure File
 
+**app.yml**
+
 ``` yaml
 AWSTemplateFormatVersion: 2010-09-09
 
