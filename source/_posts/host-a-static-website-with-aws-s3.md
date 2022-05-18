@@ -34,7 +34,7 @@ output = json
 ```
 [your-aws-profile]
 aws_access_key_id = {your access key id}
-aws_secret_access_key = {your access key}}
+aws_secret_access_key = {your access key}
 ```
 
 ## Infrastructure File
