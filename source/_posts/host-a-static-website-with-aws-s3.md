@@ -9,6 +9,13 @@ I recently hosted a static website on AWS S3. This is pretty straight forward if
 
 I had to tweak a couple of things on my journey and ended up re-doing some of the setup. Because of this I decided to see how to automate the infrastructure and also the content deployment process for when my static site needed updating.
 
+
+# TLDR
+
+If you care less about the how and just want a quick template, go here:  
+[aws-s3-website-template](https://github.com/Jaxsbr/aws-s3-website-template)
+
+
 # Plan of Action
 
 Here are the things we need to do:
