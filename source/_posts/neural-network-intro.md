@@ -25,10 +25,10 @@ Given training data containing the attributes of both insects and a value to ind
 
 ### Attributes
 
-- Strength = 25
-- Speed = 15
-- Toughness = 10
-- Rested = 5
+- Strength
+- Speed
+- Toughness
+- Rested
 
 ### Example
 1 = yes the insect has this attribute
@@ -37,13 +37,9 @@ Given training data containing the attributes of both insects and a value to ind
 
 InsectA = A
 [1, 0, 1, 0] = strong, slow, tough and tired
-score = 35 (25 + 0 + 10 + 0)
 
 InsectB = B
 [0, 1, 0, 1] = weak, fast, fragile and rested
-score = 15 (0 + 15 + 0 + 5)
-
-Result = A > B (Insest A should win)
 
 ### How will we feed the network this info?
 
@@ -55,8 +51,9 @@ InsectA [1, 0, 1, 0] + InsectB [0, 1, 0, 1]
 Input = [1, 0, 1, 0, 0, 1, 0, 1]
 
 **Training Expected Output**
-0 = InsectA won
-1 = InsectB won
+0 = InsectA wins
+1 = InsectB wins
+
 
 ### Test if it works
 Create a new insects with attributes combinations the network has not seen yet.
