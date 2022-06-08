@@ -1,5 +1,5 @@
 ---
-title: Neural Networks For This Dummy - DRAFT
+title: Neural Networks For This Dummy
 date: 2022-05-27 11:32:11
 tags: [Neural Networks, AI, Artificial Intelligence, ML, Machine Learning, C#]
 ---
@@ -10,7 +10,6 @@ I'm really interested in AI and Machine learning. I've been curious about neural
 - Understand the how Neurons and Synapses work together
 - Understand how a network can makes accurate predictions
 - Build a prediction system that acts on custom attributes
-- Bonus goal, make is visual
 
 ## Idea - Bug Bash 🐛
 
@@ -54,10 +53,26 @@ Input = [1, 0, 1, 0, 0, 1, 0, 1]
 0 = InsectA wins
 1 = InsectB wins
 
-
 ### Test if it works
 Create a new insects with attributes combinations the network has not seen yet.
 Run the networks predic opperation with this input and determine if it predicts the victor correctly.
+
+### Code sample
+[DNN-Demo](https://github.com/Jaxsbr/DNN-Demo)
+
+## Conclusion
+The sample code accurately predicts which insect will win.  
+The output is usually a decimal e.g. 0.7 and thus you have to round up or down to get a 0 or 1
+e.g. 0.7 = 1,  0.3 = 0
+
+Eventhough the prediction works as expected, I realized that the training data is what matters most for accuracy.  
+If you manipulate it we can make it predict the opposite to where the Insect with the least attributes win.
+Additionally, the sample does not show the benefit of a small scale network over normal conditional programming. I could simply sum all the attributes and select the highest values as the victor. To get more value from the neural network I suspect the prediction needs to. 
+- Be more complex, something other than summing attribute values
+- Requires real dynamic training data and frequent retraining of the network.
+
+I do however feel more comfortable about the topic and thus satisfied with this effort.
+
 
 ## How it works
 
