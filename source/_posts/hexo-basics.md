@@ -1,7 +1,7 @@
 ---
 title: Hexo Basics
 date: 2022-05-04 09:00:00
-tags:
+tags: [Hexo]
 ---
 
 This blog was setup using Hexo. The following sections detail some of my learnings.
