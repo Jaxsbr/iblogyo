@@ -30,4 +30,10 @@ I decide to make a single page application (SPA) that could be used to collect t
 - Create new service role > AdminAccess-Amplify > use default name(amplifyconsole-backend-role) (add many roles, e.g. lambda, cognito)
 - Build and test settings > confirm output directory
 - Save, build, deploy and verify
+- It runs live (generated url)
 
+Install cli
+https://docs.amplify.aws/cli/start/install/
+
+Adding auth
+https://docs.amplify.aws/lib/auth/getting-started/q/platform/js/
