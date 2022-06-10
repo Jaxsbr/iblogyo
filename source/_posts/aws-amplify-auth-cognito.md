@@ -73,7 +73,7 @@ Amplify.configure(awsExports);
 function App({signOut, user}) {
   return (
     <>
-      <h1>Hello {user.name}</h1>
+      <h1>Hello {user.username}</h1>
       <button onClick={signOut}>Sign out</button>
     </>
   );
@@ -82,8 +82,6 @@ function App({signOut, user}) {
 export default withAuthenticator(App);
 
 ```
-
-NOTE: The `user` property represents the user configured in Cognito. I manually added a custom `name` attribute to my test user, the field is not available by default.
 
 
 ### Configure Amplify App
