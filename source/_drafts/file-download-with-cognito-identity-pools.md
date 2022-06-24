@@ -21,6 +21,7 @@ tags:
 - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CognitoIdentityCredentials.html
 - https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/CognitoIdentity.html
 - https://nodejs.org/en/knowledge/advanced/streams/how-to-use-fs-create-read-stream/
+- https://aws.amazon.com/blogs/developer/generate-presigned-url-modular-aws-sdk-javascript/
 
 ## Draft Steps
 - Click on "Federated Identities" >> Create new identity pool
