@@ -98,3 +98,11 @@ tags:
    npm install aws-sdk
 ```
 
+
+## Alternative - Signed URL
+- Create a new lambda (python has an SDK for generating pre signed s3 urls)
+- Update the lambda execution role to have access to the buckte object (getObject)
+- Deploy and test the generated signed URL
+- Create a new API gateway endpoint and link it with the Lambda
+- Configure CORS and deploy the API endpoint
+- Populate the href on the UI with the pre signed url
