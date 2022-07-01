@@ -89,6 +89,8 @@ As the neuron passes it's value through the synapses the value is modified (valu
 Neurons receiving modified values, will pass this value throught an activation function. 
 Depending on the value returned from the activation function, we can either block or pass the a next neuron call.
 
+<img src="/pkb-blog/images/NN.png"/>
+
 ### Formula
 x = input (neuron)
 w = weight (synapse)
@@ -107,7 +109,7 @@ a = σ(z) (sigmoid activation)
 
 NOTE: the training "experience" lives in the weights of the synapses. This is what we would store to create pre trained networks.
 
-### Weighed Derivative Formula
+### Weighted Derivative Formula
 But how much should we adjust the weights by when the output is incorrect?
 
 adjust weights by = error.input.output.(1 - output) *add this to all synapses*
