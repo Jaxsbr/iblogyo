@@ -4,7 +4,8 @@
   "homepage": "https://jaxsbr.github.io/pkb-blog/",
   "private": true,
   "scripts": {
-    "publish": "cp -r ./public/* ../pkb-blog",
+    "golive": "hexo g -d && cd ../../ && git add . && git commit m 'update' && git push",
+    "publish": "cp -r ./public/* ../pkb-blog",    
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

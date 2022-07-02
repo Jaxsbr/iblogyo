@@ -1,7 +1,13 @@
 #!/bash/bin
 
-#TODO: either replace root OR use other config in generate
+hexo g
 
-hexo generate
+hexo d
 
-cp -r ./public/* ../pkb-blog
+cd ../../
+
+git add .
+
+git commit m 'update'
+
+git push

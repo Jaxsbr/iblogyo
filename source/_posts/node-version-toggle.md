@@ -1,5 +1,5 @@
 ---
-title: node-version-toggle
+title: Toggle nodejs versions
 tags:
   - nodejs
   - nvm
