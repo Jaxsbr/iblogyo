@@ -43,9 +43,44 @@ Select the Hosting environments tab
 
 ## Authentication
 
+### Configure Amplify App
+
+Select the Backend environments tab
+- Initialy you have to click "Get Started" to enable the Backend tab. This takes a few minutes
+- Click Launch Studio
+- Go to the Set up > Authentication tab
+  - Add a login mechanism. (this is where you can specify federate login types. e.g. Google or Facebook). I chose a simple Email mechanism.
+  - Specify Sign-in & sign-out URL's. 
+    - This allows for multiple URLs. I specified both my local and production URL's to allow login requirements for both environments.
+  - You and also setup MFA and password rulese here. I opted for all the defaults, no MFA.
+  - Deploy
+- Save the new authentication setup. This will start a CloudFormation deployment.
+- You can view the created authentication resouces in Cognito or CloudFormation.
+
+### Add users and groups
+
+While still in the Amplify Studio
+- Select the Manage > User management tab
+- In the Users tab click Create User
+  - Specify email and temporary password
+- In the Groups tab click Create Group
+  - Specify a group name
+  - Select the new group and click Add User
+  - Specify the users to add
+
+  
 ### Configure SPA App
 
-Install the aws amplify dependencies
+Install the amplify CLI [from here](https://docs.amplify.aws/cli/start/install/)
+```bash
+npm install -g @aws-amplify/cli
+```
+- From the Amplify application, Backend environments tab, find and expand the "Local setup instructions" toggle drop down.
+- Copy and run the `amplify pull --appId {your app id} --envName {your env}` command in your UI project.
+
+This will sync the Cognito infrastructure and client credentials with your project. NOTE, the credentials are not commited to your source control. see "aws-exports.js" file
+
+Install the aws amplify npm dependencies
 ```bash
 npm install aws-amplify
 ```
@@ -83,31 +118,6 @@ export default withAuthenticator(App);
 
 ```
 
-
-### Configure Amplify App
-
-Select the Backend environments tab
-- Initialy you have to click "Get Started" to enable the Backend tab. This takes a few minutes
-- Click Launch Studio
-- Go to the Set up > Authentication tab
-  - Add a login mechanism. (this is where you can specify federate login types. e.g. Google or Facebook). I chose a simple Email mechanism.
-  - Specify Sign-in & sign-out URL's. 
-    - This allows for multiple URLs. I specified both my local and production URL's to allow login requirements for both environments.
-  - You and also setup MFA and password rulese here. I opted for all the defaults, no MFA.
-  - Deploy
-- Save the new authentication setup. This will start a CloudFormation deployment.
-- You can view the created authentication resouces in Cognito or CloudFormation.
-
-### Add users and groups
-
-While still in the Amplify Studio
-- Select the Manage > User management tab
-- In the Users tab click Create User
-  - Specify email and temporary password
-- In the Groups tab click Create Group
-  - Specify a group name
-  - Select the new group and click Add User
-  - Specify the users to add
 
 ### Disable self-service sign-up
 
