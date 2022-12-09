@@ -7,7 +7,7 @@ tags: SQL
 ## Info
 
 After struggling for hours on the interwebs I usually find the magic combination of SQL syntax for solving a particular problem.  
-The problem come in when I don't frequently work with SQL and forget what the syntax was that I used.  
+The problem comes in when I don't frequently work with SQL and forget what the syntax was that I used.  
 
 Here is a collection of my favourite SQL snippets
 
