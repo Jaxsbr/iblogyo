@@ -50,3 +50,17 @@ todo
 ### Temp Tables
 
 todo
+
+### WIP 
+
+where not exists
+https://stackoverflow.com/questions/35857726/select-records-from-a-table-where-two-columns-are-not-present-in-another-table
+
+where in
+https://stackoverflow.com/questions/17548751/how-to-write-a-sql-delete-statement-with-a-select-statement-in-the-where-clause
+
+insert into subquery
+https://stackoverflow.com/questions/9692319/how-can-i-insert-values-into-a-table-using-a-subquery-with-more-than-one-result
+
+cte VS temp table vs table variable
+https://www.dotnettricks.com/learn/sqlserver/difference-between-cte-and-temp-table-and-table-variable#:~:text=Temp%20Tables%20are%20physically%20created,the%20scope%20of%20a%20statement.
