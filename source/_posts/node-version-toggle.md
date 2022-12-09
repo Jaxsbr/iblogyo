@@ -16,10 +16,14 @@ There has been a number times when I tried new frameworks or templates that depe
 Allows easy installations and toggling of nodejs versions
 
 
-## Install nvm
+## Linux Install nvm
 ``` bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
+
+## Windows Install nvm
+Find the [latest release](https://github.com/coreybutler/nvm-windows/releases) from the NVM Github page  
+Download the `nvm-setup.exe` and run it on you local computer. 
 
 ## Install nodejs version
 ``` bash
