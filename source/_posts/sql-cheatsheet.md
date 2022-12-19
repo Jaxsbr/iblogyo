@@ -65,3 +65,6 @@ https://stackoverflow.com/questions/9692319/how-can-i-insert-values-into-a-table
 cte VS temp table vs table variable
 https://www.dotnettricks.com/learn/sqlserver/difference-between-cte-and-temp-table-and-table-variable#:~:text=Temp%20Tables%20are%20physically%20created,the%20scope%20of%20a%20statement.
 https://stackoverflow.com/questions/2920836/local-and-global-temporary-tables-in-sql-server#:~:text=Local%20temporary%20tables%20(%20CREATE%20TABLE,have%20referenced%20them%20have%20closed
+
+merge output
+https://www.sqlservercentral.com/articles/the-output-clause-for-the-merge-statements
