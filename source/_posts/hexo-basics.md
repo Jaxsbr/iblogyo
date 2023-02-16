@@ -150,7 +150,7 @@ First I had to update the **_config.yml**
 ```
 deploy:
   type: 'git'
-  repo: 'https://github.com/Jaxsbr/pkb-blog.git'
+  repo: 'git@github.com:Jaxsbr/pkb-blog.git'
   branch: main
 ```
 
