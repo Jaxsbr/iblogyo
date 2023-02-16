@@ -33,19 +33,42 @@ INNER JOIN MyTable my
 
 ### Insert
 
-todo
+Adds new rows to a table.  
+``` SQL
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+```
 
 ### Delete
 
-todo
+Removes one or more rows from a table.
+``` SQL
+DELETE FROM table_name
+WHERE condition;
+```
+NOTE: the `condition` must be true for a row to be deleted
 
 ### Subqueries
 
-todo
+A query within another query. The results of the subquery are used in the main query.
+``` SQL
+SELECT column_name(s)
+FROM table_name
+WHERE column_name IN (SELECT column_name FROM table_name WHERE condition);
+```
+
 
 ### Merge
 
-todo
+Combines data from two tables into one.
+``` SQL
+MERGE INTO target_table USING source_table
+ON target_table.column = source_table.column
+WHEN MATCHED THEN
+UPDATE SET target_table.column = source_table.column
+WHEN NOT MATCHED THEN
+INSERT (column1, column2, column3, ...) VALUES (source_table.column1, source_table.column2, source_table.column3, ...);
+```
 
 ### Temp Tables
 
