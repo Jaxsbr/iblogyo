@@ -64,3 +64,10 @@ For a more comprehensive understanding of responsible AI, refer to the full over
 - Governance and organizational principles should guide the creation of AI-based - solutions.
 - Ethical and legal standards should be clearly defined and upheld.
 - Designers and developers should work within this framework to ensure compliance.
+
+# Resources
+
+
+https://www.microsoft.com/en-us/ai/responsible-ai-resources?rtc=1  
+https://blogs.microsoft.com/on-the-issues/2022/06/21/microsofts-framework-for-building-ai-systems-responsibly/  
+https://learn.microsoft.com/en-za/training/paths/get-started-with-artificial-intelligence-on-azure/  
