@@ -14,7 +14,7 @@ In the first part of this Python blog series, we'll explore Python IDLE, an inte
 
 ## Prerequisite: Installing Python
 
-To use Python IDLE on your Windows machine, you need to have Python installed. If you haven't installed Python yet, follow these [steps]().
+To use Python IDLE on your Windows machine, you need to have Python installed. If you haven't installed Python yet, follow these [steps](https://jaxsbr.github.io/pkb-blog/2023/05/20/python-series-overview/).
 
 ## Finding Python IDLE
 
