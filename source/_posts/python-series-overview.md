@@ -13,7 +13,7 @@ In this series I capture the basics needed to get into Python programming on a W
 
 ## Parts
 
-- Part 1 - Introduction to Python IDLE
+- [Part 1 - Introduction to Python IDLE](https://jaxsbr.github.io/pkb-blog/2023/05/20/python-series-part1/)
 - Part 2 - Running Python scripts from a Terminal (WIP)
 - Part 3 - (WIP)
 
