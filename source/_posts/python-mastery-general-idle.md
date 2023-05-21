@@ -1,20 +1,19 @@
 ---
-title: Python Series - Part 1 | Introduction to Python IDLE
+title: "Python Mastery - General: Introduction to Python IDLE"
 date: 2023-05-20 20:04:54
 tags:
 - Python
 - IDLE
-- Series
 - Windows
 ---
 
 ## Overview
 
-In the first part of this Python blog series, we'll explore Python IDLE, an integrated development environment (IDE) that comes bundled with Python. Python IDLE provides a convenient way to write, edit, and execute Python code.
+We'll explore Python IDLE, an integrated development environment (IDE) that comes bundled with Python. Python IDLE provides a convenient way to write, edit, and execute Python code.
 
 ## Prerequisite: Installing Python
 
-To use Python IDLE on your Windows machine, you need to have Python installed. If you haven't installed Python yet, follow these [steps](https://jaxsbr.github.io/pkb-blog/2023/05/20/python-series-overview/).
+To use Python IDLE on your Windows machine, you need to have Python installed. If you haven't installed Python yet you can find info on the official [Getting Started](https://www.python.org/about/gettingstarted/) page.
 
 ## Finding Python IDLE
 
