@@ -4,6 +4,7 @@ date: 2023-05-20 20:04:54
 tags:
 - Python
 - IDLE
+- IDE
 - Windows
 ---
 
