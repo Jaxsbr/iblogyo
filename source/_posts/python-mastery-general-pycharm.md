@@ -24,7 +24,7 @@ This post does not explain details about installing software on different types 
 3. Two editions are available for download.
     - Professional which is commercial
     - Community which is free and open source.
-4. Download and install on you computer.
+4. Download and install the **Community** edition on your computer.
 
 ## Basic usage
 
