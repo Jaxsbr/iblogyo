@@ -27,6 +27,7 @@ Join me as we navigate through these domains, expand our Python skills, and prog
 ## Parts
 
 - [General: Introduction to Python IDLE](https://jaxsbr.github.io/pkb-blog/2023/05/20/python-mastery-general-idle/)
+- [General: Introduction to PyCharm](https://jaxsbr.github.io/pkb-blog/2023/05/24/python-mastery-general-pycharm/)
 
 ## Resources
 
