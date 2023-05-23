@@ -13,7 +13,7 @@ We'll quickly setup and test the PyCharm integrated development environment (IDE
 
 ## Prerequisite: Installing Python
 
-To use Python IDLE on your Windows machine, you need to have Python installed. If you haven't installed Python yet you can find info on the official [Getting Started](https://www.python.org/about/gettingstarted/) page.
+To use PyCharm, you need to have Python installed. If you haven't installed Python yet you can find info on the official [Getting Started](https://www.python.org/about/gettingstarted/) page.
 
 This post does not explain details about installing software on different types of opperating systems.
 
