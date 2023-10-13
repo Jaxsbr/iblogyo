@@ -5,6 +5,7 @@ tags:
     - Boxyvault
     - Cloud
     - AWS
+    - S3
     - React
     - File management
 ---
