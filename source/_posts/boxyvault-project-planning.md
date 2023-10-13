@@ -18,7 +18,7 @@ In this post I'll talk about how I manage my personal projects and the initial m
 
 Well, it's not needed, however as a software engineer working in the corporate environment I've seen the impact of not planning software project appropriately.
 
-There are two thing I've seen happen when project planning is not executed well.
+There are two things I've seen happen when project planning is not executed well.
 
 ### Scope creep
 
@@ -31,11 +31,11 @@ Project planning should cap the features that are intended to be developed and c
 
 When either the project planning tooling is lacking or the use of proper task management is not enforcement, chaos can ensue. In scenarios like this engineers use their own approaches to tracking progress and reporting back to stakeholders. Without a form of standardization information gets lost, duplicated or corrupted ultimiatly resulting in poor delivery performance.
 
-Project planning should define how progress is tracked and reported on. This provides visibility success and potential blockers. This visibility is instrumental in allowing agile behavior during the projects development.
+Project planning should define how progress is tracked and reported on. This provides visibility on successes and potential blockers. This visibility is instrumental in allowing agile behavior during the projects development.
 
 ## My personal planning
 
-Since I'm working on a personal project some of typical project planning requirement are less important as I report to myselft. However, being organised and having visibility of what to work on when is still highly valueble.
+Since I'm working on a personal project some of typical project planning requirement are less important as I report to myself. However, being organised and having visibility of what to work on when is still highly valuable.
 
 ### How
 
@@ -63,7 +63,7 @@ Tasks are linked to their respective Milestones making it simple to see how the 
 
 In my Tasks database I have a column called "Status" and this provides a mechanism for seeing what is pending, in-progress or completed.
 
-Another great feature of Notion and the database system is that each record has an underlying Page representative. This means that if I need to add more context to a task, I can expand it's page and populate it with any amount of text, links, images and syntax highligted code snippets.
+Another great feature of Notion and the database system is that each record has an underlying Page representative. This means that if I need to add more context to a task, I can expand it's page and populate it with any amount of text, links, images and syntax highlighted code snippets.
 
 ## Next
 
