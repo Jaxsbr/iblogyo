@@ -49,6 +49,6 @@ I decided to develop a custom system (4) for the following reasons:
 - I'm interested to see if this can become and open source project or income source
 - A large project like this will give me many opportunities to practice technical writing
 
-## Conclusion
+## Next
 
-Stay tuned for future posts on Boxyvault
+[Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/)
