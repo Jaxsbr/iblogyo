@@ -61,9 +61,14 @@ My main reason for considering CI/CD tools are:
 - Provides a way to orchestrate multiple deploy scripts
 - Allows me a unique upskilling opportunity that aligns with my day job
 
+## So what is next?
+
+The next task I want to work on is to get a simple Lambda function working and returning dummy data. Once I have this, I can build out the Lambda resource and IAM roles template file. Finnaly I need to make a deploy script the uses `awscli` to provision the Lambda function and it's roles. Additionally all the steps listed in [Deploy](#deploy) needs to be implemented.
+
 ## Conclusion
 
-Lamda function code is seperated by function name, deployment and infrastructure files reside in the root `lambda` directory.
-I'm considering the introduction of CI/CD tooling into the project but need to look at pros and cons of my options.
+- Lambda function code is seperated by function name, deployment and infrastructure files reside in the root `lambda` directory.
+- I'm considering the introduction of CI/CD tooling into the project but need to look at pros and cons of my options.
+- My next post will detail progress I've made on a dummy data Lambda function.
 
-[Previous Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/) - stay tuned for next post
+[Previous - Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/) - Stay tuned for next post
