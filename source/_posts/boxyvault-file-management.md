@@ -16,7 +16,7 @@ In this post I'm going to share an idea that I'm working on and why it's importa
 
 ### Goals
 
-- Establish consistent development and writing cadence
+- Establish consistent development progress on the Boxyvault system
 - Practice technical writing
 - Start a habit of capturing dev logs
 
