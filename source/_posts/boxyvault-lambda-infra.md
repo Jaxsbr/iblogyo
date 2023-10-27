@@ -34,6 +34,27 @@ boxyvault-infra/lambda/template.yml
 Deploying a Lambda function requires the following steps:
 
 - Zip up the function code
-- Push the zip file to AWS S3 and capture neccessary resources Id's
+- Push the zip file to AWS S3 and capture neccessary resources Id's that links to the S3 object
 - Link the S3 Id to the infrastructure template
 - Deploy the Cloudformation resource via the AWS CLI
+
+## CI/CD Tools
+
+I've not yet decide on what tool I'd like to use but have two preferences:
+
+- Github Actions
+- AWS Code Build/Deploy
+
+Why would I need this, could I not just run the individual deploy scripts?
+My main reason for considering CI/CD tools are:
+
+- Reliable deployments (pressing a button is less error prone than running a script with arguments)
+- Provides a way to orchestrate multiple deploy scripts
+- Allows me a unique upskilling opportunity that aligns with my day job
+
+## Conclusion
+
+Lamda function code is seperated by function name, deployment and infrastructure files reside in the root `lambda` directory.
+I'm considering the introduction of CI/CD tooling into the project but need to look at pros and cons of my options.
+
+[Previous Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/) - stay tuned for next post
