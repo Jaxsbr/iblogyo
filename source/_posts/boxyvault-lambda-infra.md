@@ -2,6 +2,15 @@
 title: boxyvault-lambda-infra
 date: 2023-10-16 07:32:47
 tags:
+    - Boxyvault
+    - AWS
+    - S3
+    - Github Actions
+    - Code Build
+    - Code Deploy
+    - Lambda function
+    - IAM Role
+    - CI/CD
 ---
 
 This week I started planning how I will structure and deploy Lambda functions. The concern for me is that it should be easy to modify and maintain both the Lambda's code and infrastructure.
