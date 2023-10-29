@@ -18,7 +18,7 @@ This week I started planning how I will structure and deploy Lambda functions. T
 Thus far I've been using bash scripts to invoke the AWS CLI in order to create my infrastructure, but I'm quite curios to see if I can also get into some CI/CD tools, e.g. Github Actions or AWS's code build tools. My two requirements are:
 
 - The CI/CD process or pipelines is also declared as code, nothing manually configured
-- Secrets or tokens are secure an has a well documentend approach for setting up.
+- Secrets or tokens are secure an has a well documented approach for setting up.
 
 This is important to me because I don't know if Boxyvault will be a Saas or a open source project, but both would benefit from having everything defined as code due to the flexibility and speed it will provide.
 
@@ -43,7 +43,7 @@ boxyvault-infra/lambda/template.yml
 Deploying a Lambda function requires the following steps:
 
 - Zip up the function code
-- Push the zip file to AWS S3 and capture neccessary resources Id's that links to the S3 object
+- Push the zip file to AWS S3 and capture necessary resources Id's that links to the S3 object
 - Link the S3 Id to the infrastructure template
 - Deploy the Cloudformation resource via the AWS CLI
 
@@ -63,11 +63,11 @@ My main reason for considering CI/CD tools are:
 
 ## So what is next?
 
-The next task I want to work on is to get a simple Lambda function working and returning dummy data. Once I have this, I can build out the Lambda resource and IAM roles template file. Finnaly I need to make a deploy script the uses `awscli` to provision the Lambda function and it's roles. Additionally all the steps listed in [Deploy](#deploy) needs to be implemented.
+The next task I want to work on is to get a simple Lambda function working and returning dummy data. Once I have this, I can build out the Lambda resource and IAM roles template file. Finally I need to make a deploy script the uses `awscli` to provision the Lambda function and it's roles. Additionally all the steps listed in [Deploy](#deploy) needs to be implemented.
 
 ## Conclusion
 
-- Lambda function code is seperated by function name, deployment and infrastructure files reside in the root `lambda` directory.
+- Lambda function code is separated by function name, deployment and infrastructure files reside in the root `lambda` directory.
 - I'm considering the introduction of CI/CD tooling into the project but need to look at pros and cons of my options.
 - My next post will detail progress I've made on a dummy data Lambda function.
 

@@ -23,25 +23,25 @@ There are two things I've seen happen when project planning is not executed well
 ### Scope creep
 
 Without proper boundaries or minimum viable product (MVP) definitions, a project can quickly gain new features.
-These new features make sense during the projects initial phases but increase the likelyhood of resulting in the project not reaching deadlines, dissapointing users and failing due to withdrawl of stakeholder support.
+These new features make sense during the projects initial phases but increase the likelihood of resulting in the project not reaching deadlines, disappointing users and failing due to withdrawal of stakeholder support.
 
 Project planning should cap the features that are intended to be developed and clearly describe what will and won't be considered for Beta versions.
 
 ### Inefficient Development
 
-When either the project planning tooling is lacking or the use of proper task management is not enforcement, chaos can ensue. In scenarios like this engineers use their own approaches to tracking progress and reporting back to stakeholders. Without a form of standardization information gets lost, duplicated or corrupted ultimiatly resulting in poor delivery performance.
+When either the project planning tooling is lacking or the use of proper task management is not enforcement, chaos can ensue. In scenarios like this engineers use their own approaches to tracking progress and reporting back to stakeholders. Without a form of standardization information gets lost, duplicated or corrupted ultimately resulting in poor delivery performance.
 
 Project planning should define how progress is tracked and reported on. This provides visibility on successes and potential blockers. This visibility is instrumental in allowing agile behavior during the projects development.
 
 ## My personal planning
 
-Since I'm working on a personal project some of typical project planning requirement are less important as I report to myself. However, being organised and having visibility of what to work on when is still highly valuable.
+Since I'm working on a personal project some of typical project planning requirement are less important as I report to myself. However, being organized and having visibility of what to work on when is still highly valuable.
 
 ### How
 
-I use the [Notion](https://www.notion.so/desktop) app to plan my projects. A simple page per project, Milestones and Tasks embeded databases helps create actionable task management.
+I use the [Notion](https://www.notion.so/desktop) app to plan my projects. A simple page per project, Milestones and Tasks embedded databases helps create actionable task management.
 
-Notion is great for this as it allow rich text editing, embeded URL links and uploading of files. The embeded database system is flexible and allows you to manage any type of data.
+Notion is great for this as it allow rich text editing, embedded URL links and uploading of files. The embedded database system is flexible and allows you to manage any type of data.
 
 ### Milestones
 

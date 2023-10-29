@@ -31,8 +31,8 @@ I want to use the AWS's S3 service to store and manage my family photo's and vid
 
 ## Why not use Google Drive?
 
-I am very cheap and enjoy free stuff and with this comes use of the default 15 gigs of storage Google Drive offers. Unfortunatly I've maxed out this free storage very quickly as the size of my family content far exceeds this.
-So I looked into the pricing tiers offered to upgrade my Google Drive storage and despite it being somewhat resonable at lower sizes (100-200 gb) the jump to 2 tb (max) was too expensive. Additionally I foresee my 4k video's needing more space in the future.
+I am very cheap and enjoy free stuff and with this comes use of the default 15 gigs of storage Google Drive offers. Unfortunately I've maxed out this free storage very quickly as the size of my family content far exceeds this.
+So I looked into the pricing tiers offered to upgrade my Google Drive storage and despite it being somewhat reasonable at lower sizes (100-200 gb) the jump to 2 tb (max) was too expensive. Additionally I foresee my 4k video's needing more space in the future.
 
 ## Surely you can find some alternatives?
 
@@ -41,7 +41,7 @@ What are my options here? I'll list them as I saw it:
 - 1. Buy physical hard drives, enough to make backups. Remember this content is precious
 - 2. Google Drive with the most expensive tier and perhaps create more paid accounts.
 - 3. Look for alternative cloud based solutions and accept the cost
-- 4. Build my own system and rely on AWS S3 and Glasier to make it cost effective
+- 4. Build my own system and rely on AWS S3 and Glacier to make it cost effective
 
 I decided to develop a custom system (4) for the following reasons:
 
