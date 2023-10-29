@@ -63,7 +63,7 @@ My main reason for considering CI/CD tools are:
 
 ## So what is next?
 
-The next task I want to work on is to get a simple Lambda function working and returning dummy data. Once I have this, I can build out the Lambda resource and IAM roles template file. Finally I need to make a deploy script the uses `awscli` to provision the Lambda function and it's roles. Additionally all the steps listed in [Deploy](#deploy) needs to be implemented.
+The next task I want to work on is to get a simple Lambda function working and returning dummy data. Once I have this, I can build out the Lambda resource and IAM roles template file. Finally I need to make a deploy script that uses `awscli` to provision the Lambda functions and their roles. Additionally all the steps listed in [Deploy](#deploy) needs to be implemented.
 
 ## Conclusion
 
