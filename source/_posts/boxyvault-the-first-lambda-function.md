@@ -17,7 +17,7 @@ tags:
 
 ## Overview
 
-This entry delves into what I discovered while implementing the first Lambda function for Boxyvault. A couple of interesting and unexpected things appeared that is worth sharing such as needing to provision AWS S3 buckets before being able to deploy Lambda functions. Also my findings of improving logging code in Python.
+This entry delves into what I discovered while implementing the first Lambda function for Boxyvault. A couple of interesting and unexpected things appeared that is worth sharing such as needing to provision AWS S3 buckets before being able to deploy Lambda functions.
 
 - [The first Lambda function](the-first-lambda-function)
 - [How do we handle filter arguments](#how-do-we-handle-filter-arguments)
