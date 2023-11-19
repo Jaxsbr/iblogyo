@@ -41,7 +41,7 @@ The function will eventually return data from DynamoDb and optionally reduce the
 
 ## How do we handle filter arguments
 
-I will be invoking these Lambda functions via and API Gateway RESTful request.
+I will be invoking these Lambda functions via an API Gateway RESTful request.
 This means we'll utilize typical mechanisms such as query parameters to deliver the filter arguments to the Lambda function. e.g.
 
 ```bash
