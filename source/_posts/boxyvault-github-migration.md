@@ -34,13 +34,11 @@ All of Boxyvault's infrastructure is represented by AWS CloudFormation template 
 
 Another consideration is interdependencies between resources and the sequence in which they are provisioned. e.g. `S3` buckets need to exist before a Lambda function's code can be uploaded there and referenced in it's own resource template. At the moment I am mindful of the resource deployment order, but as Boxyvault grows I will inevitably become unable to remember all the specific hierarchies and sequential steps.
 
-TODO: Write about AWS IAM best practice regarding deployments (convenience atm uses a single developer role, not ayoba)
-
 ## Desired State
 
 My vision for Boxyvault is get it up an running from scratch in a few minutes. Meaning that an engineer who clones the code can launch an instance of Boxyvault and start making changes soon after. I believe this will be made possible by configuring all infrastructure as code (IaC) and developing resources in a lightweight and decoupled manner.
 
-The current structure of Boxyvault's infrastructure already facilitates this goals to some degree, but can be made more robust and less prune to human error. This brings us to the WHY, why I want to go through the effort of migrating my repositories from AWS CodeCommit to Github. Github provides a free tier CI/CD mechanism named Github actions (GHA) that integrates directly with your code repository. Workflows are defined that orchestrate complex DevOps processes and can be actioned from a web browser. The workflow, infrastructure and application code is secure as Github utilized best practices such as multi factor authentication.
+The current structure of Boxyvault's infrastructure already facilitates this goals to some degree, but can be made more robust and less prune to human error. This brings us to the WHY, why I want to go through the effort of migrating my repositories from AWS CodeCommit to Github. Github provides a free tier CI/CD mechanism named Github actions (GHA) that integrates directly with your code repository. Workflows are defined that orchestrate complex DevOps processes and can be actioned from a web browser. The workflow, infrastructure and application code is secure as Github utilizes best practices such as multi factor authentication.
 
 ## Migration Phases
 
