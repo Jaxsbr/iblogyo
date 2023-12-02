@@ -1,5 +1,5 @@
 ---
-title: boxyvault-github-migration
+title: Boxyvault - Github migration
 date: 2023-12-03 07:00:00
 tags:
     - Boxyvault
