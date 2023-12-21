@@ -73,4 +73,4 @@ The next task I want to work on is to get a simple Lambda function working and r
 - I'm considering the introduction of CI/CD tooling into the project but need to look at pros and cons of my options.
 - My next post will detail progress I've made on a dummy data Lambda function.
 
-[Previous - Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/) - [Next - The first lambda function](https://jaxsbr.github.io/pkb-blog/2023/11/10/boxyvault-the-first-lambda-function/)
+[Previous - Boxyvault Project Planning](https://jaxsbr.github.io/pkb-blog/2023/10/13/boxyvault-project-planning/) | [Next - The first lambda function](https://jaxsbr.github.io/pkb-blog/2023/11/10/boxyvault-the-first-lambda-function/)

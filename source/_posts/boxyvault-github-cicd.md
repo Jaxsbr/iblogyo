@@ -153,4 +153,4 @@ Boxyvault is now operating out of Github, both repository management as well as 
 
 I'm excited to have these new capabilities and believe this will serve Boxyvault and it's users very well.
 
-[Previous - Boxyvault Github migration](https://jaxsbr.github.io/pkb-blog/2023/12/03/boxyvault-github-migration/) - Stay tuned for next post
+[Previous - Boxyvault Github migration](https://jaxsbr.github.io/pkb-blog/2023/12/03/boxyvault-github-migration/) | Stay tuned for next post

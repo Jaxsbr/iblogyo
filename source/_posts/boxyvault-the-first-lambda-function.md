@@ -105,7 +105,7 @@ We've started thinking about data overload, a paging strategy using the `limit` 
 
 As I continue building Boxyvault, I hope these foundational insights will lead to a scalable and efficient system.
 
-[previous - Lambda function infrastructure](https://jaxsbr.github.io/pkb-blog/2023/10/16/boxyvault-lambda-infra/) - Stay tuned for next post
+[Previous - Boxyvault Lambda function infrastructure](https://jaxsbr.github.io/pkb-blog/2023/10/16/boxyvault-lambda-infra/) | [Next - Boxyvault Github migration](https://jaxsbr.github.io/pkb-blog/2023/12/03/boxyvault-github-migration/)
 
 ## Code Preview 😁
 
