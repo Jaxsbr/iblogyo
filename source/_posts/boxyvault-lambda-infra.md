@@ -13,6 +13,8 @@ tags:
     - CI/CD
 ---
 
+## Intro
+
 This week I started planning how I will structure and deploy Lambda functions. The concern for me is that it should be easy to modify and maintain both the Lambda's code and infrastructure.
 
 Thus far I've been using bash scripts to invoke the AWS CLI in order to create my infrastructure, but I'm quite curios to see if I can also get into some CI/CD tools, e.g. Github Actions or AWS's code build tools. My two requirements are:

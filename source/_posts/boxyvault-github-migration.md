@@ -56,4 +56,4 @@ With the Github repositories in place I will create GHA workflows to represent t
 
 I realized the need to do some foundational work that will start Boxyvault's CI/CD journey on good footing. An excellent learning experience is also in the cards for me with both Github repository management and GHA being domains I can sink my teeth into. Ultimately getting to a point where I can reliable build and deploy my infrastructure (for free 😁) is the benefit I'm after, as I believe this will help fast track Boxyvault's development
 
-[previous - The first Lambda function](https://jaxsbr.github.io/pkb-blog/2023/11/10/boxyvault-the-first-lambda-function/) - Stay tuned for next post
+[previous - Boxyvault's first Lambda function](https://jaxsbr.github.io/pkb-blog/2023/11/10/boxyvault-the-first-lambda-function/) - [next - Boxyvault Github CI/CD](https://jaxsbr.github.io/pkb-blog/2023/12/22/boxyvault-github-cicd/)
