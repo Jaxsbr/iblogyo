@@ -142,9 +142,7 @@ I've seen people use separate Github repositories to act as a central documentat
 ## References
 
 https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/
-
 https://docs.github.com/en/rest/actions/oidc?apiVersion=2022-11-28
-
 https://scalesec.com/blog/oidc-for-github-actions-on-aws/
 
 ## Conclusion
