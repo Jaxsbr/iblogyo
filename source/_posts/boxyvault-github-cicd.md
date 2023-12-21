@@ -1,5 +1,5 @@
 ---
-title: Boxyvault Github CI/CD
+title: Boxyvault - Github CI/CD
 date: 2023-12-22 06:41:48
 tags:
 - Boxyvault
