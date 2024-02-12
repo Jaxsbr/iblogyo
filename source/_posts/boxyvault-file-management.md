@@ -27,7 +27,7 @@ The name intends to reflects the concept of a container that is a safe keep for 
 
 ## So what is this Idea?
 
-I want to use the AWS's S3 service to store and manage my family photo's and video's. I developing a front-end in React which enables custom functionality such as tagging, previewing and archiving of content.
+I want to use the AWS's S3 service to store and manage my family photo's and video's. In order to interact with these stored files, I'm developing a front-end in React. Boxyvault will enable some custom functionality such as tagging, previewing and archiving of content.
 
 ## Why not use Google Drive?
 
